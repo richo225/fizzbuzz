@@ -7,9 +7,16 @@ describe 'fizzbuzz' do  #describe the method
   end
 end
 
-#another test for multiples of 3
+#test for multiples of 3
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed 6' do
     expect(fizzbuzz(6)).to eq 'fizz'
+  end
+end
+
+#another test for multiples of 3
+describe 'fizzbuzz' do
+  it 'returns "fizz" when passed 9' do
+    expect(fizzbuzz(9)).to eq 'fizz'
   end
 end
