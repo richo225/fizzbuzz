@@ -41,3 +41,10 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 end
+
+#final test for non-multiples of 3 or 5 - return number
+describe 'fizzbuzz' do
+  it 'returns 7 when passed 7' do
+    expect(fizzbuzz(7)).to eq 7
+  end
+end
