@@ -34,3 +34,10 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(10)).to eq 'buzz'
   end
 end
+
+#test for multiples of 3 and 5
+describe 'fizzbuzz' do
+  it 'returns "fizzbuzz" when passed 15' do
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+end
